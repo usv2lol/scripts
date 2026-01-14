@@ -4,5 +4,3 @@ local SpectateEvent = game:GetService("ReplicatedStorage").Remotes.StartSpectati
 SpectateEvent.OnClientEvent:Connect(function()
     Deploy:FireServer("Play")
 end)
-
--- this is very simple ik :)
